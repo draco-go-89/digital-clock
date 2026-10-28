@@ -3,15 +3,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(100deg, #e0f1fc, #f8bfbfd6);
+    background: linear-gradient(100deg, #2da3f1, #ff2cd19c);
     font-family: 'Poppins', sans-serif;
     margin: 2px;
+    overflow: hidden;
 }
 
  .clock {
     text-align: center;
     padding:  30px 50px;
-    border-radius: 20px;
+    border-radius: 50px;
     background: #ecf6ff54;
     box-shadow:  0 10px 30px rgba(0, 0, 0, 0.1);
 }
