@@ -3,8 +3,9 @@
     {
       "name": "Default",
       "files": [
-        "style.css",
-        ".vscode/changelists.json"
+        "faces.jpg",
+        ".vscode/changelists.json",
+        "style.css"
       ]
     }
   ],

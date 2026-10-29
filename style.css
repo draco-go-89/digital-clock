@@ -7,12 +7,17 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 2px;
     overflow: hidden;
+    background-image: url(faces.jpg);
+        /* background-repeat: no-repeat; */
+        background-size: 90%;
+        background-position: center;
 }
 
  .clock {
     text-align: center;
     padding:  30px 50px;
     border-radius: 50px;
-    background: #ecf6ff54;
-    box-shadow:  0 10px 30px rgba(0, 0, 0, 0.1);
+    background: #ecf6ff00;
+    color: whitesmoke;
+    /* box-shadow:  0 10px 30px rgba(0, 0, 0, 0.1); */
 }
