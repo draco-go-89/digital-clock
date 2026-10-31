@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Digital Clock</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="clock">
+            <div id="time">00:00:00</div>
+            <div id="date">Monday, 1 January 2026</div>
+        </div>
+        <script src="script.js"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Clock</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-    <div class="clock">
-        <div id="time">00:00:00</div>
-        <div id="date">Monday, 1 January 2026</div>
-    </div>
-    <script src="script.js"></script>
-    <!-- Auto-Redirect Your GitHub Pages URL to Your Vercel URL -->
-    <script>
-    if (window.location.hostname.includes("github.io")) {
-    window.location.replace("https://portfolio-kappa-seven-mtjr6i5p29.vercel.app" + window.location.pathname);
-    }
-    </script>
-</body>
-
+            gtag('config', 'G-R7EY1MPKBG');
+        </script>
+    </body>    
 </html>
